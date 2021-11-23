@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  body{
+      background-color: #4e4e4e;
+  }
+  .logo{
+      text-align: center;
+      width: 50%;
+      margin: auto;
+      /* margin-top: 60px; */
+      /* margin-left: 500px; */
+      padding: 150px 0;
+   
+  }
+  div > img{
+      /* margin-right: 500px; */
+      margin-left: 45px;
+      /* background-color: #4e4e4e; */
+  }
+  /* input styling */
+  #google-search {
+      width: 350px;
+      padding: 6px ;
+      margin: 12px;
+      border-radius: 25px;
+      border: 1px solid #ccc;
+      /* background-image:url(../images/google-mike.png),url(../images/search-icon.png); */
+      background-size: 25px,23px;
+      background-repeat: no-repeat;
+      background-position: left 8px center, right 8px center ;
+      background-image:url(https://png.pngtree.com/element_our/20190601/ourmid/pngtree-search-icon-image_1344447.jpg),url(../images/mike.svg);
+  background-color: rgb(250, 249, 249);
+  /* fill: rgb(88, 8, 236); */
+  } 
+  
+  #google-search:focus{
+      outline: none;
+      /* first is vetical , second is harizontal, third is blur,fouth is spread.  */
+       /* box-shadow: 12px 0 15px 4px rgba(0, 55, 162, 0.97), -12px 0 8px -4px rgba(0, 55, 162, 0.97); */
+       /* box-shadow: 2px 0px 0px 0px red, -2px 0px 30px 0px blue; */
+       /* this is tob */
+  /* box-shadow: 0 -5px 5px -5px rgb(56, 59, 236); */
+  /* this is bottom */
+  /* box-shadow: 0 5px 5px -5px green,0 -5px 5px -5px rgb(56, 59, 236); */
+  /* box-shadow: 10px 0 5px -4px blue, -20px 0 10px -10px green; */
+  
+  /* box-shadow: 2px 3px 4px 2px #333; */
+  box-shadow: 0 0 5px rgb(10, 10, 10);
+  
+  
+  }
+  /* .btn{
+      margin-right: 20px;
+      padding: 30px;
+      border: none;
+      border-radius: 15px;
+  } */
+  .btn{
+      margin-top: 15px;
+  }
+     
+  .btn1{
+      margin-right: 9px;
+      padding: 4px;
+      border-radius: 9px;
+      border: none;
+      /* color: rgb(57, 66, 57); */
+      background-color: rgb(21, 110, 65);
+      color:white;
+      cursor: pointer;
+  }
+  
+  .btn2{
+      margin-right: 9px;
+      padding: 5px;
+      border-radius: 9px;
+      border: none;
+      color: #faf6f8 !important;
+      background-color: rgb(21, 110, 65);
+      color: #5f6365;
+      cursor: pointer;
+      /* cursor:help; */
+  }
+  .btn1:hover {
+      /* background-color: rgb(26, 134, 134); */
+      border: 1px solid white;
+  }
+  .btn2:hover{
+      border: 1px solid rgb(240, 240, 248);
+  }
+  .btn1,.btn2:focus{
+      outline:none;
+  }
+  /* languages */
+  div > .language{
+      margin: 20px;
+  }
+  .languages >li {
+      list-style-type: none;
+      display:inline;
+      margin-right: 8px;
+      font-size: 12px;
+      text-decoration: none;
+  
+  }
+  .languages > li > a {
+      text-decoration: none;
+  
+  }
+  .languages{
+      color: #e8eff3;
+  }
+  footer>ol.footer li{
+      display: inline;
+      margin-right: 9px;
+      fill: #5f6365;
+      font-size: 15px;
+     
+  }
+  li>a{
+    color: white;
+  }
+  footer{
+      text-align: center;
+      border: 1px solid rgb(243, 223, 223);
+      padding: 10px;
+      position: fixed;
+      bottom: 2px;
+      /* display: block; */
+      width: 100%;
+      background-color: #403939;
+      /* margin: auto; */
+      /* font: size 1px; */
+      color: #ecf0f1;
+  }
+  
